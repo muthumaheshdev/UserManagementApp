@@ -1,4 +1,4 @@
-# 📱 User Management App
+<img width="1080" height="2220" alt="Screenshot_1771668916" src="https://github.com/user-attachments/assets/4f620dd8-b9ca-4a0e-846f-0a7bcb545c33" /># 📱 User Management App
 
 A production-ready **React Native** application built with TypeScript, Redux Toolkit, and clean architecture. Fetches users from a public API, supports search, pagination, pull-to-refresh, offline caching, and full user editing with form validation.
 
@@ -13,7 +13,6 @@ A production-ready **React Native** application built with TypeScript, Redux Too
 - ⚡ **Optimistic Updates** — edits reflect instantly; auto-reverts on API failure
 - 📦 **Offline Support** — redux-persist caches data in AsyncStorage
 - ❌ **Error Handling** — full-screen error view + inline banner for refresh failures
-- 🧪 **Unit Tests** — slice reducers, utility functions, and screen components
 
 ---
 
@@ -124,14 +123,6 @@ npm run ios
 npm run android
 ```
 
----
-
-## 🧪 Running Tests
-
-```bash
-npm test
-```
-
 ## 📡 API
 
 Uses [JSONPlaceholder](https://jsonplaceholder.typicode.com/users) — a free public REST API for testing.
@@ -145,6 +136,14 @@ GET https://jsonplaceholder.typicode.com/users
 ## 📸 Screenshots
 
 > Add your screenshots here after running the app.
+> <img width="1080" height="2220" alt="Screenshot_1771668916" src="https://github.com/user-attachments/assets/79ae86fe-7090-49d7-8aae-1311ff3a2ed4" />
+> <img width="1080" height="2220" alt="Screenshot_1771668925" src="https://github.com/user-attachments/assets/7cc53ee8-f224-449a-8a92-68a0f7bc5482" />
+> <img width="1080" height="2220" alt="Screenshot_1771668934" src="https://github.com/user-attachments/assets/10f5f17c-c105-44d2-bfe1-d1814595d2d5" />
+> <img width="1080" height="2220" alt="Screenshot_1771668958" src="https://github.com/user-attachments/assets/a62b918c-c314-4856-87f6-13c64645961e" />
+> <img width="1080" height="2220" alt="Screenshot_1771668970" src="https://github.com/user-attachments/assets/4909c2c4-f0c4-4391-8e85-e87d103d0b1a" />
+> <img width="1080" height="2220" alt="Screenshot_1771668972" src="https://github.com/user-attachments/assets/97fbc4e4-02bb-4267-95d9-5b2a3ad963f3" />
+> <img width="1080" height="2220" alt="Screenshot_1771668981" src="https://github.com/user-attachments/assets/b44cb9e0-47f8-4737-964e-aac0bf9470ff" />
+
 
 ---
 
