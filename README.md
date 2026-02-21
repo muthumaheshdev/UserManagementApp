@@ -44,13 +44,6 @@ src/
 │   └── colors.ts             # Central color palette
 ├── types/
 │   └── user.ts               # User, Address, Company, Geo interfaces
-└── utils/
-    └── userUtils.ts          # getInitials, filterByFields
-
-__tests__/
-├── userUtils.test.ts
-├── usersSlice.test.ts
-└── UserListScreen.test.tsx
 ```
 
 ---
@@ -92,7 +85,6 @@ All records are fetched once. `visibleUsers` is a progressive slice of `allUsers
 | Formik           | Form state management |
 | Yup              | Schema validation     |
 | React Navigation | Stack navigation      |
-| Jest + RNTL      | Testing               |
 
 ---
 
@@ -139,14 +131,6 @@ npm run android
 ```bash
 npm test
 ```
-
-Test coverage includes:
-
-- `userUtils.ts` — `getInitials` and `filterByFields`
-- `users.ts` slice — all reducers + async thunk lifecycle
-- `UserListScreen` — render, search, navigation, error states
-
----
 
 ## 📡 API
 
